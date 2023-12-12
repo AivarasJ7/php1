@@ -9,7 +9,7 @@
         if (isset($_POST['button2'])) {
             $backgroundColor = 'yellow';
 
-            header("Location: ./task6.php");
+            header("Location: ./task7.php");
             die();
         }
     }
@@ -27,11 +27,11 @@
     </style>
 </head>
 <body>
-    <form method="get" action="./task6.php">
+    <form method="get" action="./task7.php">
         <button type="submit" name="button1">BUTTON1</button>
     </form>
     
-    <form method="post" action="./task6.php">
+    <form method="post" action="./task7.php">
         <button type="submit" name="button2">BUTTON2</button>
     </form>
     <!-- 7.Pakartokite 6 uždavinį. Papildykite jį kodu, 
